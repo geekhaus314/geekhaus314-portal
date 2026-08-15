@@ -461,7 +461,7 @@ export default function App() {
       <nav className="fixed top-0 inset-x-0 z-40 border-b border-bone/10 bg-ink/85 backdrop-blur">
         <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
           <a href="#top" className="font-serif text-xl tracking-tight text-bone">
-            geekhaus314
+            pwn4g3
           </a>
           <div className="hidden sm:flex items-center gap-6 text-sm text-bone/60">
             <a href="#about" className="hover:text-bone transition-colors">About</a>
@@ -489,8 +489,14 @@ export default function App() {
         </div>
         <div className="relative z-10 max-w-4xl mx-auto px-6 py-32 text-center">
           <p className="text-sm uppercase tracking-[0.3em] text-bone/50">Full-Stack Developer · St. Louis, MO</p>
+          <div className="mt-4 font-mono text-sm text-bone/50">
+            <span className="text-blood">[whoami]$</span> Jake Viefhaus (aka{' '}
+            <a href="https://github.com/geekhaus314" target="_blank" rel="noopener noreferrer" className="text-bone underline decoration-bone/30 hover:text-blood transition-colors">
+              @geekhaus314
+            </a>{' '}on GitHub)
+          </div>
           <h1 className="mt-4 font-serif text-5xl md:text-7xl font-light text-bone">
-            Jake M. Viefhaus
+            pwn4g3
           </h1>
           <p className="mt-6 text-lg text-bone/70 max-w-2xl mx-auto leading-relaxed">
             I build full-stack web applications, APIs, automation, and secure infrastructure —
@@ -528,8 +534,8 @@ export default function App() {
           <div className="reveal mt-8 space-y-5 text-bone/70 leading-relaxed">
             <p>
               I'm Jake, a full-stack developer and cybersecurity engineering student based in
-              St. Louis, Missouri. I build web applications, automate workflows, and help
-              businesses make sense of their data.
+              St. Louis, Missouri — founder of pwn4g3. I build web applications, automate
+              workflows, and help businesses make sense of their data.
             </p>
             <p>
               From multi-tenant e-commerce platforms to client sites for local businesses,
@@ -583,7 +589,7 @@ export default function App() {
 
       <footer className="border-t border-bone/10 py-10">
         <div className="max-w-7xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-bone/40">
-          <p>© {new Date().getFullYear()} Jake M. Viefhaus · geekhaus314</p>
+          <p>© {new Date().getFullYear()} pwn4g3 · Jake M. Viefhaus</p>
           <div className="flex gap-5">
             <a href="https://github.com/geekhaus314" target="_blank" rel="noopener noreferrer" className="hover:text-bone transition-colors">GitHub</a>
             <a href="https://github.com/3m0h4ck3r" target="_blank" rel="noopener noreferrer" className="hover:text-bone transition-colors">3m0h4ck3r</a>

@@ -44,7 +44,7 @@ export const onRequestPost = async ({ request, env }) => {
       Authorization: `Bearer ${env.RESEND_API_KEY}`,
     },
     body: JSON.stringify({
-      from: env.BOOKING_FROM || 'geekhaus314 <onboarding@resend.dev>',
+      from: env.BOOKING_FROM || 'pwn4g3 <onboarding@resend.dev>',
       to: [env.BOOKING_EMAIL],
       subject: `Booking request from ${name}`,
       text: emailBody,
