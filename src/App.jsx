@@ -590,7 +590,7 @@ export default function App() {
       <footer className="border-t border-bone/10 py-10">
         <div className="max-w-7xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-bone/40">
           <p>© {new Date().getFullYear()} pwn4g3 · Jake M. Viefhaus</p>
-          <p className="text-xs text-bone/30">Co-conspirator: Thomas Ivie</p>
+          <p className="text-xs text-bone/30">Co-conspirator: Thomas Ivie — graphic design, management, booking &amp; customer service</p>
           <div className="flex gap-5">
             <a href="https://github.com/geekhaus314" target="_blank" rel="noopener noreferrer" className="hover:text-bone transition-colors">GitHub</a>
             <a href="https://github.com/3m0h4ck3r" target="_blank" rel="noopener noreferrer" className="hover:text-bone transition-colors">3m0h4ck3r</a>
